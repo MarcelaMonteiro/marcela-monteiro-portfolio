@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Header() {
 	const [open, setOpen] = useState(false);
 	return (
-		<header className="fixed top-0 left-0 w-full z-50 overflow-hidden">
+		<header className="fixed  inset-x-0 z-50 ">
 			<nav
-				className="hidden md:block p-4 overflow-hidden fixed z-50 w-full top-0  bg-[rgba(33,6,53,0.55)]
+				className="hidden md:block p-4  bg-[rgba(33,6,53,0.55)]
     backdrop-blur-xl
     border-b border-white/10 "
 			>

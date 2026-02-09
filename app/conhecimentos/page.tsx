@@ -5,7 +5,7 @@ import TagAbertura from "@/components/TagAbertura";
 import TagFechamento from "@/components/tagFechamento";
 export default function Conhecimentos() {
 	return (
-		<section className="h-[100vh] overflow-hidden flex flex-col items-center justify-center px-6">
+		<section className="h-[100vh] overflow-hidden flex flex-col items-center justify-center px-6 bg-[radial-gradient(circle_at_top,#7B337E_0%,#420D4B_35%,#210635_80%)]">
 			<BackgroundParticles />
 			<div className="flex items-center gap-3 mb-12">
 				<TagAbertura />

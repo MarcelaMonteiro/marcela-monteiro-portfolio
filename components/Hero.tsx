@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
 	return (
-		<section className="relative h-[100vh] bg-[radial-gradient(circle_at_top,#7B337E_0%,#420D4B_35%,#210635_80%)] flex items-center justify-center text-white md:flex md:items-start md:justify-start p-20 overflow-hidden ">
+		<section className="relative  h-[100vh] bg-[radial-gradient(circle_at_top,#7B337E_0%,#420D4B_35%,#210635_80%)] flex items-center justify-center text-white md:flex md:items-start md:justify-start p-20 overflow-hidden ">
 			<BackgroundParticles />
 
 			<div className="md:flex flex flex-col md:items-start md:justify-start items-center justify-center md:mt-10  ">

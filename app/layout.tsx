@@ -32,7 +32,7 @@ export default function RootLayout({
           ${inter.variable}
           ${poppins.variable}
           font-sans
-          antialiased  relative overflow-x-hidden
+          antialiased relative overflow-x-hidden 
         `}
 			>
 				{" "}

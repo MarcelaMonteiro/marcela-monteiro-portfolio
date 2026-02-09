@@ -7,7 +7,7 @@ import Conhecimentos from "./conhecimentos/page";
 
 export default function Home() {
 	return (
-		<main className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+		<main className="">
 			<section className="min-h-screen snap-start">
 				<Hero />
 			</section>
