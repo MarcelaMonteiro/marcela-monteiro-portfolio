@@ -25,18 +25,18 @@ export default function BackgroundParticles() {
 				fullScreen: { enable: true },
 
 				particles: {
-					number: { value: 25 },
+					number: { value: 40 },
 					color: { value: ["#F5D5E0", "#7B337E"] },
 
 					links: {
 						enable: false,
-						opacity: 0.9,
+						opacity: 0.8,
 						distance: 120,
 						color: "#F5D5E0",
 					},
 
 					move: { enable: true, speed: 0.25 },
-					size: { value: { min: 1, max: 3 } },
+					size: { value: { min: 1, max: 5 } },
 					opacity: { value: 0.3 },
 				},
 			}}
