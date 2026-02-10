@@ -30,13 +30,13 @@ export default function BackgroundParticles() {
 
 					links: {
 						enable: false,
-						opacity: 0.8,
+						opacity: 0.9,
 						distance: 120,
 						color: "#F5D5E0",
 					},
 
 					move: { enable: true, speed: 0.25 },
-					size: { value: { min: 1, max: 5 } },
+					size: { value: { min: 1, max: 4 } },
 					opacity: { value: 0.3 },
 				},
 			}}
