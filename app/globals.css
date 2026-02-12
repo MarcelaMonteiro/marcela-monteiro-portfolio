@@ -5,7 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-
 	--font-body: var(--font-inter);
 	--font-title: var(--font-poppins);
 	--radius: 0.625rem;
@@ -71,7 +70,6 @@ h3 {
 }
 
 @theme inline {
-
 	--radius-sm: calc(var(--radius) - 4px);
 
 	--radius-md: calc(var(--radius) - 2px);
@@ -150,7 +148,6 @@ h3 {
 }
 
 .dark {
-
 	--background: oklch(0.145 0 0);
 
 	--foreground: oklch(0.985 0 0);
@@ -215,12 +212,12 @@ h3 {
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-    @apply border-border outline-ring/50;
+	* {
+		@apply border-border outline-ring/50;
+		@apply border-border outline-ring/50;
 	}
-  body {
-    @apply bg-background text-foreground;
-    @apply bg-background text-foreground;
+	body {
+		@apply bg-background text-foreground;
+		@apply bg-background text-foreground;
 	}
 }
